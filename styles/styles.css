@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Windy;
+    src: url(../fonts/WindyMetro.ttf);
+}
+@font-face {
+    font-family: Captain;
+    src: url(../fonts/CaptainRedemption.ttf);
+}
+
+#container {
+	width: 300px;
+	height: 500px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("../images/grassSky.jpeg");
+	background-size: cover;
+	/*background-color: lightblue;*/
+}
+#title {
+	text-align: center;
+	font-size: 72px;
+	font-family: Windy;
+	color: #0c4b63;
+}
+#button {
+	width: 175px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #137fa8;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: white;
+	opacity: 0.8;
+	font-family: sans-serif;
+}
+#info {
+	width: 280px;
+	height: 280px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #137fa8;
+	border-radius: 15%;
+	opacity: 0.8;*/
+}
+#temp {
+	width: 100px;
+	height: 100px;
+	background-color: #137fa8;
+	margin-right: auto;
+	margin-left: auto;
+	opacity: 0.3;
+	text-align: center;
+	color: white;
+}
+#weather {
+	width: 100px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #137fa8;
+	font-size: 32px;
+	text-align: center;
+	font-family: sans-serif;
+}
+#subStat {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#hum {
+	width: 80px;
+	height: 50px;
+	display: inline-block;
+	background-color: #137fa8;
+	opacity: 0.3;
+}
+#press {
+	width: 80px;
+	height: 50px;
+	background-color: #137fa8;
+	display: inline-block;
+	opacity: 0.3;
+}
+#wind {
+	width: 80px;
+	height: 50px;
+	background-color: #137fa8;
+	display: inline-block;
+	opacity: 0.3;
+}
+hr {
+	width: 280px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#137fa8;
+	border-width:0;
+	color:#137fa8;
+	height:2px;
+}
+#humidity, #pressure, #windspeed {
+	width: 80px;
+	font-size: 14px;
+	display: inline-block;
+	color: #137fa8;
+}
+#statText {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -15px;
+}
