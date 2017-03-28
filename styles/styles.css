@@ -9,7 +9,7 @@
 
 #container {
 	width: 300px;
-	height: 500px;
+	height: 600px;
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
@@ -62,12 +62,12 @@
 	font-family: sans-serif;
 }
 #weather {
-	width: 200px;
+	width: 250px;
 	height: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 	color: #137fa8;
 	font-size: 18px;
 	text-align: center;
@@ -78,7 +78,7 @@
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 20px;
+	margin-top: 0px;
 	color: white;
 	font-family: sans-serif;
 }
@@ -138,4 +138,7 @@ h3 {
 }
 #mph {
 	font-size: 10px;
+}
+#zipInput {
+	text-align: center;
 }
